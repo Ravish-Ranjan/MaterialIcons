@@ -53,7 +53,7 @@ chmod +x install.sh
 
 ---
 
-## 🧪 Verification
+## Verification
 
 ```bash
 ls ~/.icons/MaterialIcons/index.theme
@@ -61,12 +61,12 @@ xdg-mime query filetype README.md
 ```
 ---
 
-## ⚠️ Notes
+## Notes
 
 - Empty files are detected as `application/x-zerosize`
 
 ---
 
-## 📜 License
+## License
 
 MIT License
