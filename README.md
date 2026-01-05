@@ -66,7 +66,3 @@ xdg-mime query filetype README.md
 - Empty files are detected as `application/x-zerosize`
 
 ---
-
-## License
-
-MIT License
