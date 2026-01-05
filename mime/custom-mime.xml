@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  
+  <mime-type type="text/x-typescript">
+    <comment>TypeScript file</comment>
+    <glob pattern="*.ts"/>
+    <glob pattern="*.cts"/>
+    <glob pattern="*.mts"/>
+    <icon name="text-x-typescript"/>
+  </mime-type>
+
+  <mime-type type="text/x-tsx">
+    <comment>TypeScript React file</comment>
+    <glob pattern="*.tsx"/>
+    <icon name="text-x-tsx"/>
+  </mime-type>
+
+  <mime-type type="text/x-jsx">
+    <comment>JavaScript React file</comment>
+    <glob pattern="*.jsx"/>
+    <icon name="text-x-jsx"/>
+  </mime-type>
+
+  <mime-type type="text/x-ejs">
+    <comment>Embedded JavaScript template</comment>
+    <glob pattern="*.ejs"/>
+    <icon name="text-x-ejs"/>
+  </mime-type>
+
+  <mime-type type="text/x-dts">
+    <comment>TypeScript Declaration file</comment>
+    <glob pattern="*.d.ts"/>
+    <icon name="text-x-dts"/>
+  </mime-type>
+
+  <mime-type type="text/x-todo">
+    <comment>Todo file</comment>
+    <glob pattern="*.todo"/>
+    <icon name="text-x-todo"/>
+  </mime-type>
+
+  <mime-type type="text/x-rust">
+    <comment>Rust source file</comment>
+    <glob pattern="*.rs"/>
+    <icon name="text-x-rust"/>
+  </mime-type>
+
+  <mime-type type="text/x-env">
+    <comment>Environment variables file</comment>
+    <glob pattern=".env"/>
+    <glob pattern=".env.*"/>
+    <glob pattern="*.env"/>
+    <icon name="text-x-env"/>
+  </mime-type>
+
+  <mime-type type="text/x-xml">
+    <comment>XML files</comment>
+    <glob pattern=".xml"/>
+    <glob pattern="*.xml"/>
+    <icon name="text-x-xml"/>
+  </mime-type>
+
+  <mime-type type="text/x-php">
+    <comment>PHP file</comment>
+    <glob pattern=".php"/>
+    <glob pattern="*.php"/>
+    <icon name="text-x-php"/>
+  </mime-type>
+
+  <mime-type type="application/x-bash">
+    <comment>Environment variables file</comment>
+    <glob pattern=".bash"/>
+    <glob pattern="*.bash"/>
+    <icon name="application-x-bash"/>
+  </mime-type>
+
+  <mime-type type="text/x-prisma">
+    <comment>Prisma Schema File</comment>
+    <glob pattern="*.prisma"/>
+    <icon name="text-x-prisma"/>
+  </mime-type>
+  
+  <mime-type type="text/x-tsconfig">
+    <comment>tsconfig file</comment>
+    <glob pattern="tsconfig.json"/>
+    <glob pattern="tsconfig.app.json"/>
+    <icon name="text-x-tsconfig"/>
+  </mime-type>
+
+  <mime-type type="text/x-gitignore">
+    <comment>Git Ignore File</comment>
+    <glob pattern=".gitignore"/>
+    <icon name="text-x-gitignore"/>
+  </mime-type>
+
+  <mime-type type="text/x-handlebars">
+    <comment>Handlebars email templates</comment>
+    <glob pattern=".handlebars"/>
+    <glob pattern="*.handlebars"/>
+    <icon name="text-x-handlebars"/>
+  </mime-type>
+
+  <mime-type type="text/x-license">
+    <comment>License file</comment>
+    <glob pattern="LICENSE*"/>
+    <icon name="text-x-license"/>
+  </mime-type>
+
+  <mime-type type="text/x-readme-markdown">
+    <comment>README Markdown file</comment>
+    <glob pattern="README.md"/>
+    <glob pattern="README.markdown"/>
+    <icon name="text-x-readme-markdown"/>
+  </mime-type>
+
+  <mime-type type="text/markdown">
+    <comment>Markdown document</comment>
+    <glob pattern="*.md"/>
+    <glob pattern="*.markdown"/>
+    <icon name="text-x-markdown"/>
+  </mime-type>
+</mime-info>
