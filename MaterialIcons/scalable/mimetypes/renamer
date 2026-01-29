@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# 1. Cleaning up NestJS icons (Removing .clone)
+# Your list has several .clone files for NestJS [cite: 1, 2, 3, 94, 95]
+mv nest-controller.clone.svg nest-controller.svg
+mv nest-service.clone.svg nest-service.svg
+mv nest-module.clone.svg nest-module.svg
+mv nest-guard.clone.svg nest-guard.svg
+mv nest-middleware.clone.svg nest-middleware.svg
+mv nest-filter.clone.svg nest-filter.svg
+mv nest-interceptor.clone.svg nest-interceptor.svg
+mv nest-resolver.clone.svg nest-resolver.svg
+mv nest-gateway.clone.svg nest-gateway.svg
+
+# 2. Standardizing Config Files
+# Adding .config to ensure they are picked up by build tools [cite: 24, 78, 79, 93]
+cp astro.svg astro.config.svg
+cp vite.svg vite.config.svg
+cp tailwindcss.svg tailwind.config.svg
+cp postcss.svg postcss.config.svg
+cp stylelint.svg stylelint.config.svg
+
+# 3. Fixing LaTeX naming
+# You have several LaTeX files with .clone [cite: 64, 65, 66, 92, 94]
+mv latex.clone.svg latex.svg
+mv latex-class.clone.svg latex-class.svg
+mv latex-package.clone.svg latex-package.svg
+mv sty.clone.svg sty.svg
+mv dtx.clone.svg dtx.svg
+
+# 4. Standardizing Light Mode
+# Converting underscore to dot for better theme engine support [cite: 1, 4, 33, 55]
+mv drone_light.svg drone.light.svg
+mv adobe-illustrator_light.svg adobe-illustrator.light.svg
+mv adobe-photoshop_light.svg adobe-photoshop.light.svg
+mv bun_light.svg bun.light.svg
+mv pnpm_light.svg pnpm.light.svg
+
+# 5. Simplifying generic text types
+# Mapping complex MIME-style names to standard extensions [cite: 32, 33, 43, 47]
+cp text-x-c++src.svg cpp.svg
+cp text-x-csrc.svg c.svg
+cp text-x-python.svg python.svg
+cp text-x-rust.svg rust.svg
+cp text-x-toml.svg toml.svg
+
+echo "Rename and alias process complete."
